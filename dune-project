@@ -5,23 +5,20 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github krishnasys-admin/PNova))
 
-(authors "Author Name <author@example.com>")
+(authors "Krishna")
 
-(maintainers "Maintainer Name <maintainer@example.com>")
+(maintainers "Krishna")
 
-(license LICENSE)
-
-(documentation https://url/to/documentation)
+(license MIT)
 
 (package
  (name pnova)
- (synopsis "A short synopsis")
- (description "A longer description")
- (depends ocaml)
- (allow_empty)
- (tags
-  ("add topics" "to describe" your project)))
-
-; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html
+ (synopsis "Interactive theorem prover written in OCaml")
+ (description
+  "PNova is an interactive theorem prover built from first principles in OCaml.")
+ (depends
+  ocaml
+  dune
+  alcotest))

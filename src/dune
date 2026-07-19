@@ -1,0 +1,7 @@
+(include_subdirs unqualified)
+
+(library
+ (name pnova)
+ (public_name pnova)
+ (wrapped false)
+ (libraries))
