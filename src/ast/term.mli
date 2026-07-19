@@ -16,3 +16,9 @@ val apply : t -> t -> t
 
 (** Returns a readable representation of a term. *)
 val to_string : t -> string
+
+(** Creates a variable from an existing identifier. *)
+val var_id : Identifier.t -> t
+
+(** Creates a lambda from an existing identifier. *)
+val lambda_id : Identifier.t -> t -> t

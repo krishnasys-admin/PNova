@@ -27,3 +27,9 @@ let rec to_string term =
       ^ " "
       ^ to_string argument
       ^ ")"
+
+let var_id identifier =
+  Variable identifier
+
+let lambda_id identifier body =
+  Lambda (identifier, body)
