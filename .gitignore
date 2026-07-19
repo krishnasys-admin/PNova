@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Build artifacts
+_build/
+dist/
+.dist/
+
+# OCaml
+*.cmi
+*.cmo
+*.cmx
+*.o
+*.a
+*.cmti
+*.cmt
+*.annot
+
+# Editor
+.vscode/
+.idea/
+
+# Temporary files
+*.swp
+*.swo
+*~
